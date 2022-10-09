@@ -24,7 +24,8 @@ body {
 
 .main-container {
   width: 375px;
-  border: 1px solid black;
+  background-color: var(--light-grayish-blue);
+  margin: 0 auto;
 }
 
 /* Header */
@@ -204,18 +205,214 @@ body {
 
 .second-section__card-container {
   width: 280px;
-  height: 169px;
+  /* height: 169px; */
   margin: 40px 47px 82px 47px;
+  display: flex;
+  flex-direction: column;
+  padding: 38.5px 18px 19px 26px;
+  box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+  border-radius: 3.93258px;
+  background-color: #ffffff;
 }
-.second-section__card-text {
-}
+
 .second-section__quote-img {
+  margin-bottom: 7px;
 }
-.second-section__profile-container {
+
+.second-section__card-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.384615px;
+  color: var(--very-dark-blur);
+  margin-bottom: 13px;
 }
+
+.second-section__profile-container-1 {
+  display: flex;
+}
+
+.second-section_profile-container-2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .second-section__profile-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 7.5px;
 }
 .second-section__profile-name {
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 0.45px;
+  color: var(--very-dark-blur);
 }
 .second-section__profile-status {
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+  color: var(--very-dark-blur);
+}
+
+.third-section__container {
+  width: 100%;
+  height: auto;
+  background-color: var(--desaturated-blue);
+}
+
+.third-section__article-container {
+}
+
+.third-section_article-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 91px 16px 89px;
+}
+
+.third-section__article-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 47px 24px 48px;
+}
+
+.third-section__form-container {
+}
+
+.third-section__input-field {
+  width: 240px;
+  height: 32px;
+  margin: 0 69px 8px 66px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--light-gray);
+  padding-left: 10px;
+}
+
+.thitd-section__button {
+  width: 240px;
+  height: 32px;
+  background-color: var(--bright-blue);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  border-radius: 1.47059px;
+  border: none;
+  margin: 0 69px 71px 66px;
+}
+
+.main-footer__container {
+  width: 100%;
+  background-color: var(--very-dark-blur);
+  padding-bottom: 42px;
+}
+
+.main-footer-_logo {
+  width: 105px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  margin: 65px 231px 32px 39px;
+}
+
+.main-footer__menu-list-1 {
+  margin-left: 64px;
+  margin-bottom: 32px;
+}
+
+.main-footer__menu-list-1-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.main-footer__menu-list-1-item-1 {
+  list-style-image: url(../images/icon-phone.svg);
+}
+
+.main-footer__menu-list-1-item-1 span {
+  position: relative;
+  left: 15px;
+}
+
+.main-footer__menu-list-1-item-2 {
+  list-style-image: url(../images/icon-email.svg);
+}
+
+.main-footer__menu-list-1-item-2 span {
+  position: relative;
+  left: 15px;
+}
+
+.main-footer__menu-list-1-item:first-child {
+  margin-bottom: 16px;
+}
+
+.main-footer__menu-list-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-left: 39px;
+  list-style: none;
+}
+
+.main-footer__menu-list-2-item {
+  margin-bottom: 16px;
+}
+
+.main-footer__menu-list-2 .main-footer__menu-list-2-item:last-child {
+  margin-bottom: 32.5px;
+}
+
+.main-footer__menu-list-3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  list-style: none;
+  margin-left: 39px;
+}
+
+.main-footer__menu-list-3-item {
+  margin-bottom: 16px;
+}
+
+.main-footer__menu-list-3 .main-footer__menu-list-3-item:last-child {
+  margin-bottom: 32px;
+}
+
+.social-list {
+  color: #ffffff;
+  list-style: none;
+  display: flex;
+  margin: 0 136px 0 136px;
+  font-size: 24px;
+}
+
+.social-list__item {
+  margin-right: 11px;
+}
+
+.fa {
+}
+
+.fa-facebook-official {
+}
+
+.fa-instagram {
+}
+
+.fa-twitter {
 }
