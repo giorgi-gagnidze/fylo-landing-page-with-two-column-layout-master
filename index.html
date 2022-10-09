@@ -23,63 +23,94 @@
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
   <body>
-    <main>
-      <header>
-        <img src="./images/logo.svg" alt="fylo logo" />
-        <ul>
-          <li>Features</li>
-          <li>Team</li>
-          <li>Sign In</li>
+    <main class="main-container">
+      <header class="main-header__container">
+        <img
+          src="./images/logo.svg"
+          alt="fylo logo"
+          class="main-header__logo"
+        />
+        <ul class="main-header__manu-list">
+          <li class="main-header__menu-list-item">Features</li>
+          <li class="main-header__menu-list-item">Team</li>
+          <li class="main-header__menu-list-item">Sign In</li>
         </ul>
       </header>
-      <section>
+      <section class="main-section__container">
         <img
           src="./images/illustration-1.svg"
           alt="picture with humans, folders and files"
+          class="main-section__img"
         />
-        <div>
-          <article>
-            <h1>All your files in one secure location, accessible anywhere.</h1>
-            <p>
+        <div class="main-section__inside-container">
+          <article class="main-section__article-container">
+            <h1 class="main-section__article-heading">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="main-section__article-text">
               Fylo stores your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends,
               family, and co-workers.
             </p>
           </article>
-          <form action="">
-            <input type="email" placeholder="Enter your email" />
-            <button>Get Started</button>
+          <form action="" class="main-section__form-container">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="main-section__input-field"
+            />
+            <button class="main-section__button">Get Started</button>
           </form>
         </div>
       </section>
-      <section>
+      <section class="second-section__container">
         <img
           src="./images/illustration-2.svg"
           alt="pucture of humand with files on hand"
+          class="second-section__img"
         />
-        <article>
-          <h2>Stay productive, wherever you are</h2>
-          <p>
+        <article class="second-section__article-container">
+          <h2 class="second-section__article-heading">
+            Stay productive, wherever you are
+          </h2>
+          <p class="second-section__article-text-1">
             Never let location be an issue when accessing your files. Fylo has
-            you covered for all of your file storage needs. Securely share files
-            and folders with friends, family and colleagues for live
-            collaboration. No email attachments required!
+            you covered for all of your file storage needs.
           </p>
-          <a href="#"
-            >See how Fylo works
-            <img src="./images/icon-arrow.svg" alt="icon of right arrow"
-          /></a>
-          <div>
-            <blockquote>
-              <img src="./images/icon-quotes.svg" alt="icon of quotes" />
+          <p class="second-section__article-text-2">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <div class="second-section__link-container">
+            <a href="#" class="second-section__link"
+              >See how Fylo works
+              <img
+                src="./images/icon-arrow.svg"
+                alt="icon of right arrow"
+                class="second-section__link-img"
+            /></a>
+          </div>
+          <div class="second-section__card-container">
+            <blockquote class="second-section__card-text">
+              <img
+                src="./images/icon-quotes.svg"
+                alt="icon of quotes"
+                class="second-section__quote-img"
+              />
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </blockquote>
-            <div>
-              <img src="./images/avatar-testimonial.jpg" alt="user avatar" />
-              <p>Kyle Burton</p>
-              <p>Founder & CEO, Huddle</p>
+            <div class="second-section__profile-container">
+              <img
+                src="./images/avatar-testimonial.jpg"
+                alt="user avatar"
+                class="second-section__profile-img"
+              />
+              <p class="second-section__profile-name">Kyle Burton</p>
+              <p class="second-section__profile-status">
+                Founder & CEO, Huddle
+              </p>
             </div>
           </div>
         </article>
